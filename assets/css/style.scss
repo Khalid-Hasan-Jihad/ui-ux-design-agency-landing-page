@@ -64,9 +64,6 @@ body {
   p {
     @include paragraph_text();
   }
-  .hero_img {
-    height: 80%;
-  }
   .our_btn {
     @include btn_effect();
   }
