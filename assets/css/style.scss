@@ -1,6 +1,6 @@
 $primary-font: "Poppins", sans-serif;
 $primary-color: #233d62;
-$secondary-color: #fe6347;
+$secondary-color: #9d4ffd;
 $tirtiary-color: #727b99;
 
 @mixin title {
@@ -13,48 +13,34 @@ $tirtiary-color: #727b99;
   font-family: "Lora", serif;
   font-size: 1.25rem;
   color: $tirtiary-color;
+  line-height: 1.6rem;
 }
 @mixin btn_effect {
   color: white;
   background-color: $secondary-color;
   border-radius: 2rem;
   font-family: $primary-font;
-  padding: 1rem 3rem;
+  padding: 0.7rem 2.4rem;
   text-decoration: none;
   &:hover {
-    border: 2px solid #233d62;
+    border: 2px solid $primary-color;
     background-color: white;
-    color: #233d62;
+    color: $primary-color;
   }
 }
-
 body {
   li {
     font-family: $primary-font;
-    color: #727b99;
+    color: white;
     &:hover {
-      color: #233d62;
+      color: #fff;
       font-weight: 700;
       transition-duration: 0.2s;
     }
   }
-  .contact_btn {
-    color: white;
-    background-color: $secondary-color;
-    border-radius: 2rem;
-    font-family: $primary-font;
-    padding: 0.7rem 2rem;
-    text-decoration: none;
-    &:hover {
-      border: 2px solid #233d62;
-      background-color: white;
-      color: #233d62;
-      font-weight: 500;
-    }
-  }
   h1 {
     font-family: $primary-font;
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: $primary-color;
     font-weight: bold;
   }
@@ -71,11 +57,6 @@ body {
     box-shadow: 0 0 20px #233d6254;
     border-radius: 2rem;
     transition-duration: 0.3s;
-  }
-  .watch_btn {
-    color: $primary-color;
-    font-family: $primary-font;
-    text-decoration: none;
   }
   .red_text {
     color: $secondary-color;

@@ -1,34 +1,18 @@
 body li {
   font-family: "Poppins", sans-serif;
-  color: #727b99;
+  color: white;
 }
 
 body li:hover {
-  color: #233d62;
+  color: #fff;
   font-weight: 700;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
 }
 
-body .contact_btn {
-  color: white;
-  background-color: #fe6347;
-  border-radius: 2rem;
-  font-family: "Poppins", sans-serif;
-  padding: 0.7rem 2rem;
-  text-decoration: none;
-}
-
-body .contact_btn:hover {
-  border: 2px solid #233d62;
-  background-color: white;
-  color: #233d62;
-  font-weight: 500;
-}
-
 body h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 3rem;
+  font-size: 2.4rem;
   color: #233d62;
   font-weight: bold;
 }
@@ -44,11 +28,12 @@ body p {
   font-family: "Lora", serif;
   font-size: 1.25rem;
   color: #727b99;
+  line-height: 1.6rem;
 }
 
 body .our_btn {
   color: white;
-  background-color: #fe6347;
+  background-color: #9d4ffd;
   border-radius: 2rem;
   font-family: "Poppins", sans-serif;
   padding: 1rem 3rem;
@@ -69,14 +54,8 @@ body .our_card:hover {
           transition-duration: 0.3s;
 }
 
-body .watch_btn {
-  color: #233d62;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-}
-
 body .red_text {
-  color: #fe6347;
+  color: #9d4ffd;
   font-family: "Poppins", sans-serif;
   line-height: 0%;
   font-size: 1rem;
@@ -92,7 +71,7 @@ body .work_effect {
 }
 
 body .work_effect:hover {
-  color: #fe6347;
+  color: #9d4ffd;
 }
 
 body .label_text {
