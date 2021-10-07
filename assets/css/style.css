@@ -1,5 +1,5 @@
 body li {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: white;
 }
 
@@ -11,22 +11,22 @@ body li:hover {
 }
 
 body h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 2.4rem;
   color: #233d62;
   font-weight: bold;
 }
 
 body h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.875rem;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.375rem;
   color: #233d62;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 body p {
-  font-family: "Lora", serif;
-  font-size: 1.25rem;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.125rem;
   color: #727b99;
   line-height: 1.6rem;
 }
@@ -35,34 +35,48 @@ body .our_btn {
   color: white;
   background-color: #9d4ffd;
   border-radius: 2rem;
-  font-family: "Poppins", sans-serif;
-  padding: 1rem 3rem;
+  font-family: "Quicksand", sans-serif;
+  padding: 0.7rem 2.4rem;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 body .our_btn:hover {
+  font-weight: 700;
   border: 2px solid #233d62;
   background-color: white;
   color: #233d62;
+  -webkit-box-shadow: 0 0 30px #3a3b3b40;
+          box-shadow: 0 0 30px #3a3b3b40;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 body .our_card:hover {
-  -webkit-box-shadow: 0 0 20px #233d6254;
-          box-shadow: 0 0 20px #233d6254;
-  border-radius: 2rem;
+  -webkit-box-shadow: 0 0 40px #3a3b3b30;
+          box-shadow: 0 0 40px #3a3b3b30;
+  border-radius: 1rem;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
 
+body .desh_line {
+  height: 0.2rem;
+  width: 6rem;
+  background-color: #9d4ffd;
+  border-radius: 10px;
+}
+
 body .red_text {
   color: #9d4ffd;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   line-height: 0%;
-  font-size: 1rem;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
 
 body .work_effect {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   color: #233d62;
   cursor: pointer;
@@ -75,7 +89,7 @@ body .work_effect:hover {
 }
 
 body .label_text {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #233d62;
   font-size: 1rem;
   line-height: 0px;
@@ -86,7 +100,7 @@ body .input_style {
   background: transparent;
   border-radius: 1rem;
   padding: 1rem 1.5rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #233d62;
   border: 2px solid #233d6250;
 }

@@ -1,17 +1,17 @@
-$primary-font: "Poppins", sans-serif;
+$primary-font: 'Quicksand', sans-serif;
 $primary-color: #233d62;
 $secondary-color: #9d4ffd;
 $tirtiary-color: #727b99;
 
 @mixin title {
   font-family: $primary-font;
-  font-size: 1.875rem;
+  font-size: 1.375rem;
   color: $primary-color;
-  font-weight: bold;
+  font-weight: 700;
 }
 @mixin paragraph_text {
-  font-family: "Lora", serif;
-  font-size: 1.25rem;
+  font-family: $primary-font;
+  font-size: 1.125rem;
   color: $tirtiary-color;
   line-height: 1.6rem;
 }
@@ -22,10 +22,14 @@ $tirtiary-color: #727b99;
   font-family: $primary-font;
   padding: 0.7rem 2.4rem;
   text-decoration: none;
+  text-transform: uppercase;
   &:hover {
+    font-weight: 700;
     border: 2px solid $primary-color;
     background-color: white;
     color: $primary-color;
+    box-shadow: 0 0 30px #3a3b3b40;
+    transition-duration: 0.2s;
   }
 }
 body {
@@ -54,15 +58,23 @@ body {
     @include btn_effect();
   }
   .our_card:hover {
-    box-shadow: 0 0 20px #233d6254;
-    border-radius: 2rem;
+    box-shadow: 0 0 40px #3a3b3b30;
+    border-radius: 1rem;
     transition-duration: 0.3s;
+  }
+
+  .desh_line{
+    height: 0.2rem;
+    width: 6rem;
+    background-color: $secondary-color;
+    border-radius: 10px;
   }
   .red_text {
     color: $secondary-color;
     font-family: $primary-font;
     line-height: 0%;
-    font-size: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
   }
   .work_effect {
     font-family: $primary-font;
