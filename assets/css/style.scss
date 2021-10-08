@@ -1,4 +1,4 @@
-$primary-font: 'Quicksand', sans-serif;
+$primary-font: "Quicksand", sans-serif;
 $primary-color: #233d62;
 $secondary-color: #9d4ffd;
 $tirtiary-color: #727b99;
@@ -33,99 +33,98 @@ $tirtiary-color: #727b99;
   }
 }
 body {
-  li {
+  .nav-link {
     font-family: $primary-font;
     color: white;
+    text-transform: uppercase;
     &:hover {
       color: #fff;
       font-weight: 700;
       transition-duration: 0.2s;
+      border-bottom: 2px solid white;
     }
   }
-  h1 {
-    font-family: $primary-font;
-    font-size: 2.4rem;
-    color: $primary-color;
-    font-weight: bold;
-  }
-  h2 {
-    @include title();
-  }
-  p {
-    @include paragraph_text();
-  }
-  .our_btn {
-    @include btn_effect();
-  }
-  .our_card:hover {
-    box-shadow: 0 0 40px #3a3b3b30;
-    border-radius: 1rem;
-    transition-duration: 0.3s;
-  }
-  .our_expert_img{
-    height: 12.5rem;
-  }
+}
+h1 {
+  font-family: $primary-font;
+  font-size: 2.4rem;
+  color: $primary-color;
+  font-weight: bold;
+}
+h2 {
+  @include title();
+}
+p {
+  @include paragraph_text();
+}
+.our_btn {
+  @include btn_effect();
+}
+.our_card:hover {
+  box-shadow: 0 0 40px #3a3b3b30;
+  border-radius: 1rem;
+  transition-duration: 0.3s;
+}
+.our_expert_img {
+  max-height: 12.5rem;
+  max-width: 12.5rem;
+}
 
-  .desh_line{
-    height: 0.2rem;
-    width: 6rem;
-    background-color: $secondary-color;
-    border-radius: 10px;
-  }
-  .red_text {
+.desh_line {
+  height: 0.2rem;
+  width: 6rem;
+  background-color: $secondary-color;
+  border-radius: 10px;
+}
+.red_text {
+  color: $secondary-color;
+  font-family: $primary-font;
+  line-height: 0%;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.work_effect {
+  font-family: $primary-font;
+  font-weight: 600;
+  color: $primary-color;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.25rem;
+  &:hover {
     color: $secondary-color;
-    font-family: $primary-font;
-    line-height: 0%;
-    font-size: 1.125rem;
-    font-weight: 500;
   }
-  .work_effect {
-    font-family: $primary-font;
-    font-weight: 600;
-    color: $primary-color;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1.25rem;
-    &:hover {
-      color: $secondary-color;
-    }
-  }
-  .label_text {
-    font-family: $primary-font;
-    color: #233d62;
-    font-size: 1rem;
-    line-height: 0px;
-    font-weight: 500;
-  }
-  .input_style {
-    background: transparent;
-    border-radius: 1rem;
-    padding: 1rem 1.5rem;
-    font-family: $primary-font;
-    color: $primary-color;
-    border: 2px solid #233d6250;
-    &:hover {
-      border: 2px solid #fe634781;
-      transition-duration: 0.2s;
-    }
-  }
+}
 
-  @media screen and (min-width: 570px) {
-    .media_q {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
+.input_style {
+  background: transparent;
+  font-family: $primary-font;
+  color: $primary-color;
+  border: 0px;
+  border-bottom: 2px solid $secondary-color;
+  border-radius: 0px;
+  padding: 0rem 2rem;
+  font-weight: 500;
+  max-width: 20rem;
+  &:hover {
+    border-bottom: 3px solid $secondary-color;
   }
-  @media screen and (max-width: 770px) {
-    .media_q {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+}
+
+@media screen and (min-width: 570px) {
+  .media_q {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 770px) {
+  .media_q {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
