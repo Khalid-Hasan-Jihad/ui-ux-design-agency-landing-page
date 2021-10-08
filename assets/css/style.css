@@ -60,6 +60,10 @@ body .our_card:hover {
           transition-duration: 0.3s;
 }
 
+body .our_expert_img {
+  height: 12.5rem;
+}
+
 body .desh_line {
   height: 0.2rem;
   width: 6rem;
