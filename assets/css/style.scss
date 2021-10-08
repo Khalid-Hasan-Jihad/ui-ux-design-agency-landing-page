@@ -102,7 +102,7 @@ p {
   border: 0px;
   border-bottom: 2px solid $secondary-color;
   border-radius: 0px;
-  padding: 0rem 2rem;
+  padding: 0.7rem 2rem;
   font-weight: 500;
   max-width: 20rem;
   &:hover {
@@ -118,6 +118,7 @@ p {
     justify-content: center;
     align-items: center;
   }
+
 }
 @media screen and (max-width: 770px) {
   .media_q {
@@ -126,5 +127,21 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .top-paragraph{
+    color: white;
+  }
+  h1{
+    color: white;
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.125rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .our_btn{
+    font-size: .9rem;
   }
 }
