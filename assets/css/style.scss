@@ -45,6 +45,12 @@ body {
     }
   }
 }
+.navbar-brand{
+  max-width: 150px;
+}
+.menu-btn{
+  width: 30px;
+}
 h1 {
   font-family: $primary-font;
   font-size: 2.4rem;
@@ -64,10 +70,6 @@ p {
   box-shadow: 0 0 40px #3a3b3b30;
   border-radius: 1rem;
   transition-duration: 0.3s;
-}
-.our_expert_img {
-  max-height: 12.5rem;
-  max-width: 12.5rem;
 }
 
 .desh_line {
@@ -139,7 +141,8 @@ p {
     font-size: 1.125rem;
   }
   p{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
   }
   .our_btn{
     font-size: .9rem;
